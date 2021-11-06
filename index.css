@@ -1,0 +1,119 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#about_section{
+    margin-top: 100px;
+}
+#about_img{
+    width:100%;
+    height:300px;
+}
+ #hire{
+     background-color: rgb(216, 76, 76);
+     border-radius:10px;
+     width:100px;
+     height:40px;
+     margin-top: 80px;
+     margin-bottom: 50px;
+     margin-left:10px;
+     
+ }
+ #hire a{
+     text-decoration: none;
+     color:white;
+ }
+ #hire a:hover{
+     color:black;
+ }
+ #resume_img{
+     margin-left:50px;
+     width:150px;
+     height:150px;
+
+ }
+ .resume_head{
+     border-left:5px solid green;
+     padding-left: 10px;
+     color:green;
+     font-weight:500;
+ }
+ #portfolio{
+     width:auto;
+     height:200px;
+ }
+ #first :hover{
+     width:300px;
+     height:200px;
+     transform: scale(0.99);
+
+     
+ }
+
+   @media screen and (max-width:768px){
+     #about_section{ 
+          margin-top:10px ;
+     }
+   }
+ 
+ #usedmedia{
+    border-left:1px solid gray;
+    margin-top:20px;
+    margin-bottom:10px;
+
+ }
+ @media screen and (max-width:768px){
+    #usedmedia{
+        border-left:0px;
+        margin-left: 50px;
+    }
+ }
+ @media screen and (max-width:768px){
+     #name1{
+         margin-left:28px;
+     }
+ }
+ @media screen and (max-width:768px){
+     #name_education{
+         margin-top:20px;
+     }
+ }
+  @media screen and (max-width:768px){
+      #github{
+          display:none;
+          
+      }
+  }
+  /*========resume_github==========*/
+  #resume_github{
+    margin-top:20px;
+    margin-bottom:50px;
+
+  }
+    #resume_github :hover{
+        color:green;
+        
+
+    }
+    
+  
+  @media screen and (max-width:768px){
+    #resume_github{
+        display:flex;
+        justify-content: center;
+        justify-content: space-around;
+        margin-left:5px ;
+        font-size:28px;
+    
+    }
+  }
+  /*=========================Start-footer=================*/
+
+  #follow a :hover{
+      color:green;
+  }
+    
+    
+  
+ 
+ 
