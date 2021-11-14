@@ -32,6 +32,29 @@
      height:150px;
 
  }
+@media screen and (max-width:375px){
+    #resume_img{
+       margin-left:5px;
+    }
+}
+#paragraph{
+   margin-left:50px;
+
+}
+@media screen and (max-width:375px){
+    #paragraph{
+       margin-left:5px;
+    }
+}
+#resume-section{
+   margin-left:50px;
+
+}
+@media screen and (max-width:375px){
+    #resume-section{
+        margin-left:5px;
+    }
+}
  .resume_head{
      border-left:5px solid green;
      padding-left: 10px;
@@ -62,23 +85,23 @@
     margin-bottom:10px;
 
  }
- @media screen and (max-width:768px){
+ @media screen and (max-width:375px){
     #usedmedia{
         border-left:0px;
-        margin-left: 50px;
+        margin-left: 5px;
     }
  }
- @media screen and (max-width:768px){
+ @media screen and (max-width:375px){
      #name1{
-         margin-left:28px;
+         margin-left:5px;
      }
  }
- @media screen and (max-width:768px){
+ @media screen and (max-width:375px){
      #name_education{
          margin-top:20px;
      }
  }
-  @media screen and (max-width:768px){
+  @media screen and (max-width:375px){
       #github{
           display:none;
           
@@ -97,7 +120,7 @@
     }
     
   
-  @media screen and (max-width:768px){
+  @media screen and (max-width:375px){
     #resume_github{
         display:flex;
         justify-content: center;
