@@ -32,7 +32,7 @@
      height:110px;
 
  }
- @media screen and (max-width:375px){
+ @media screen and (max-width:768px){
      #resume_img{
          margin-left:5px;
      }
@@ -40,7 +40,7 @@
  #paragraph{
      margin-left:50px;
  }
- @media screen and (max-width:375px){
+ @media screen and (max-width:768px){
      #paragraph{
          margin-left:5px;
      }
@@ -63,7 +63,7 @@
      
  }
  
-   @media screen and (max-width:360px){
+   @media screen and (max-width:768px){
      #about_section{ 
           margin-top:10px ;
      }
@@ -75,24 +75,24 @@
     margin-bottom:10px;
 
  }
- @media screen and (max-width:360px){
+ @media screen and (max-width:768px){
     #usedmedia{
         border-left:0px;
         margin-left:5px;
         
     }
  }
- @media screen and (max-width:360px){
+ @media screen and (max-width:768px){
      #name1{
          margin-left:5px;
      }
  }
- @media screen and (max-width:360px){
+ @media screen and (max-width:768px){
      #name_education{
          margin-top:20px;
      }
  }
-  @media screen and (max-width:360px){
+  @media screen and (max-width:768px){
       #github{
           display:none;
           
@@ -111,7 +111,7 @@
     }
     
   
-  @media screen and (max-width:360px){
+  @media screen and (max-width:768px){
     #resume_github{
         display:flex;
         justify-content: center;
@@ -124,7 +124,7 @@
   #resume-section{
     margin-left: 50px;
 }
-@media screen and (max-width:360px){
+@media screen and (max-width:768px){
     #resume-section{
         margin-left:5px;
     }
