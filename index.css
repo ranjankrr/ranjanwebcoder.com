@@ -28,33 +28,23 @@
  }
  #resume_img{
      margin-left:50px;
-     width:150px;
-     height:150px;
+     width:110px;
+     height:110px;
 
  }
-@media screen and (max-width:375px){
-    #resume_img{
-       margin-left:5px;
-    }
-}
-#paragraph{
-   margin-left:50px;
-
-}
-@media screen and (max-width:375px){
-    #paragraph{
-       margin-left:5px;
-    }
-}
-#resume-section{
-   margin-left:50px;
-
-}
-@media screen and (max-width:375px){
-    #resume-section{
-        margin-left:5px;
-    }
-}
+ @media screen and (max-width:375px){
+     #resume_img{
+         margin-left:5px;
+     }
+ }
+ #paragraph{
+     margin-left:50px;
+ }
+ @media screen and (max-width:375px){
+     #paragraph{
+         margin-left:5px;
+     }
+ }
  .resume_head{
      border-left:5px solid green;
      padding-left: 10px;
@@ -72,8 +62,8 @@
 
      
  }
-
-   @media screen and (max-width:768px){
+ 
+   @media screen and (max-width:360px){
      #about_section{ 
           margin-top:10px ;
      }
@@ -85,23 +75,24 @@
     margin-bottom:10px;
 
  }
- @media screen and (max-width:375px){
+ @media screen and (max-width:360px){
     #usedmedia{
         border-left:0px;
-        margin-left: 5px;
+        margin-left:5px;
+        
     }
  }
- @media screen and (max-width:375px){
+ @media screen and (max-width:360px){
      #name1{
          margin-left:5px;
      }
  }
- @media screen and (max-width:375px){
+ @media screen and (max-width:360px){
      #name_education{
          margin-top:20px;
      }
  }
-  @media screen and (max-width:375px){
+  @media screen and (max-width:360px){
       #github{
           display:none;
           
@@ -120,7 +111,7 @@
     }
     
   
-  @media screen and (max-width:375px){
+  @media screen and (max-width:360px){
     #resume_github{
         display:flex;
         justify-content: center;
@@ -130,12 +121,19 @@
     
     }
   }
+  #resume-section{
+    margin-left: 50px;
+}
+@media screen and (max-width:360px){
+    #resume-section{
+        margin-left:5px;
+    }
+}
   /*=========================Start-footer=================*/
 
   #follow a :hover{
       color:green;
   }
-    
     
   
  
